@@ -1,2 +1,4 @@
 # CPP-ONE
-About my note and project in CPP learning tour.
+About my notes and projects in CPP learning tour.
+
+Mainly depend on *CPP Primer*.
