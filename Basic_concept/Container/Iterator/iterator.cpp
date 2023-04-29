@@ -42,6 +42,11 @@ void exercise1(const std::vector<int> &v) {
 }
 
 void exercise2(const std::vector<int> v, const int &find){
+    if(v.begin() == v.end())
+    {
+        std::cout << "empty container" << std::endl;
+        return;
+    }
     auto start = v.begin();
     auto end = v.end();
     auto mid = start + (end - start) / 2;
